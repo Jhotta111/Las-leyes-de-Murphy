@@ -1,0 +1,85 @@
+body {
+    background-color: grey;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 170%;
+    margin: 3%;
+   
+}
+h1 {
+    font-size: 3rem;
+}
+
+p.uno, p.dos, p.tres, p.cuatro, p.cinco, p.paso {
+    text-align: left;
+    position: absolute;
+}
+p.uno {
+    background-color: rgb(243, 196, 116);
+    position: absolute;
+    width: 75%;
+    padding: 2%;
+    border: rgb(190, 106, 21) 3px solid;
+    top: 11%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: auto;
+
+}
+
+p.dos {
+background-color: rgb(223, 223, 57);
+border: rgb(87, 87, 5) 3px solid;
+height: 30%;
+width: 40%;
+top: 40%;
+
+
+}
+
+p.tres {
+    background-color: rgb(185, 255, 252);
+    border: rgb(63, 155, 158) 3px solid;
+    text-align: right;
+    height: 30%;
+    width: 40%;
+    top: 40%;
+    left: 59%;
+ 
+}
+
+
+
+p.cuatro {
+        background-color: rgb(93, 190, 98);
+        border: rgb(3, 70, 3) 3px solid;
+        text-align: center;
+        height: 30%;
+        width: 40%;
+        left: 30%;
+        top: 56%;
+        z-index: 1;
+        }
+
+    p.cinco {
+            background-color: rgb(165, 165, 63);
+            border: rgb(149, 134, 149) 3px solid;
+            height: 30%;
+            width: 40%;
+            top: 78%;
+            text-align: left;
+        }
+
+    p.paso {
+                border: hsl(0, 15%, 45%) 4px solid;
+                 background-color: hsl(0, 100%, 85%);
+                 height: 30%;
+                 width: 40%;
+                 left: 59%;
+                top: 78%;
+                text-align: right;
+                }
+
+                p:hover {
+                    z-index: 3;
+                  }
